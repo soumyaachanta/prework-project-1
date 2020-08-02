@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    background: white;
+}
+
+#navbar{
+    background: white;
+    font-size: 0.90em;
+    font-weight: 700;
+    height: 100px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+nav ul{
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+#header {
+    background: yellow;
+    height: 700px;
+}
+#text{
+    text-align: center;
+}
+
+header img {
+    width: 410px;
+    height: 370px;
+} 
+
+#header {
+    /* background: url(https://i1.faceprep.in/ProGrad/portfolio-background.svg); */
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+#header div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+#header div article{
+    margin-top: 10%;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#header div article * {
+    padding: 0 5px;
+}
+
+
+
+
+/* header div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    width: 50%;
+    align-items: center;
+}
+
+header div article{
+    background: yellow;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20%;
+
+}
+
+
+
+
+header img {n
+    width: 410px;
+    height: 370px;
+} */
+header h2 {
+    font-size: 1.5em;
+}
+
+#button {
+    text-align: center;
+    align-items: center;
+    margin-top: 12%;
+    width: 170px;
+    height: 50px;
+    border-radius: 150px;
+    font-weight: 800;
+    background: white;
+    
+
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
+#features div{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+    width: 100%;
+}
+#features div article{
+    margin: 10px 0;
+    color: black;
+    height: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#features div article * {
+    padding: 0 5px;
+}
+#features div article p{
+    color: gray;
+}
+
+#Languages{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+    padding: 0 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+
+footer{
+    background-color: #000006;
+    color: gray;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    margin: 10px 0;
+
+}
+footer p{
+    color: black;
+}
+
